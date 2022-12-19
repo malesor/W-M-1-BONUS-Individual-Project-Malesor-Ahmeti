@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Oasis | Activities</title>
+  <link href="/images/logo.png" rel="icon" type="image/x-icon" />
+  <link rel="stylesheet" href="activities.css">
+  <link href="http://fonts.googleapis.com/css?family=Josefin Sans" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/ScrollTrigger.min.js"
+    integrity="sha512-tHvUcUQYi35zApvAa5TNR3fNhBQkVtkmWKfacnpxmix4/VTGz1lGjIVyLMp7gLgAvg+aKJjnVKokXJNS5GZ+/g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="js/script2.js" defer></script>
+
+</head>
+
+<body>
+
+  <nav>
+
+    <div class="nav" id="navbar">
+      <a href="index.html" class="logo" id="logo" title="Return to the Home Page"> <img href="images/logo.png"
+          alt="tree" /></a>
+
+
+      <div class="content">
+        <ul>
+          <li class="el"><a class="line-top" href="index.html">Home</a></li>
+          <li class="el"><a class="line-top" href="Aboutus.html">About Us</a></li>
+          <li class="el"><a class="line-top" href="activities.html">Activities</a></li>
+          <li class="el"><a class="line-top" href="booknow.html">Book Now</a></li>
+          <li class="el"><a class="line-top" href="mailto:hotel@the-oasis.com"><img src="./images/contact.png"
+                width="20px"></a></li>
+        </ul>
+      </div>
+      <input type="checkbox" id="hamburger-input" class="burger-shower" />
+      <label id="hamburger-menu" for="hamburger-input"> 
+        <nav id="sidebar-menu"> 
+          <ul>
+            <li class=""><a class="line-top" href="index.html">Home</a></li>
+            <li class=""><a class="line-top" href="Aboutus.html">About Us</a></li>
+            <li class=""><a class="line-top" href="activities.html">Activities</a></li>
+            <li class=""><a class="line-top" href="booknow.html">Book Now</a></li>
+            <li class=""><a class="line-top" href="mailto:hotel@the-oasis.com"><img src="./images/contact.png"
+                  width="20px"></a></li>
+          </ul>
+        </nav>
+      </label>
+  </nav>
+
+  <section class="firstpage">
+    <div class="title">
+      <h1>Events &#38 Activities</h1> 
+      <div class="wowww">
+        <h2>
+          <span>Lorem,</span>
+          <span>ipsum</span>
+          <span>dolor</span>
+          <span>sit</span>
+          <span>amet</span>
+          <span>consectetur</span>
+          <span>adipisicing</span>
+          <span>elit.</span>
+          <span>laboriosam</span>
+          <span>sapiente</span>
+          <span>laudantium</span>
+          <span>enim ab!</span>
+          <span>Magnam</span>
+          <span>suscipit</span>
+          <span>cumque,</span>
+          <span>sed a</span>
+          <span>eveniet</span>
+          <span>sint.</span>
+        </h2>
+      </div>
+    </div>
+  </section>
+
+  <section class="second page">
+    <div class="flip-card"> 
+      <div class="flip-card-inner"> 
+        <div class="flip-card-front">
+          <div class="pics"><a href="#"><img class="wellness" src="images/wellness2.jpg" alt="wellness" /></a></div>
+        </div>
+        <div class="flip-card-back"> 
+          <h1>Spa & Wellness</h1>
+          <p>Enjoy a relaxing day at the spa...</p>
+          <p>Facials, Saunas and much more!</p>
+        </div>
+      </div>
+    </div>
+    <div class="flip-card">
+      <div class="flip-card-inner">
+        <div class="flip-card-front">
+          <div class="pics"><a href="#"><img class="wellness" src="images/room.jpg" alt="room" /></a></div>
+        </div>
+        <div class="flip-card-back"> 
+          <h1>Conference room</h1>
+          <p>A perfect professional environment...</p>
+          <p>Hold meetings, presentations and much more!</p>
+        </div>
+      </div>
+    </div>
+    <div class="flip-card">
+      <div class="flip-card-inner">
+        <div class="flip-card-front">
+          <div class="pics"><a href="#"><img class="wellness" src="images/party.webp" alt="party" /></a></div>
+        </div>
+        <div class="flip-card-back">
+          <h1>Event venue</h1>
+          <p>Goregeus venues for you next big event...</p>
+          <p>We would love to host you!</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="thirdpage">
+    <div class="bookingtitle"> 
+      <h1 class="titleheader" id="bookHeader">Book an activity</h1>
+    </div>
+    <div class="container">
+
+      <div class="form">
+
+        <div class="selectActivity">
+
+          <select id="activity">
+
+            <option value="#" selected>Choose your activity</option>
+
+            <option value="Spa">Spa & Wellness</option>
+
+            <option value="Conference">Connference room</option>
+
+            <option value="Event">Event Hostinf</option>
+
+          </select>
+        </div>
+
+        <div class="fullSurname">
+          <input type="text" id="name" name="name" placeholder="Full Name" />
+        </div>
+
+        <div class="dateTime">
+
+          <input type="date" id="date" />
+
+          <input type="number" id="time" placeholder="Time" />
+
+        </div>
+
+        <div class="phoneEmail">
+
+          <input type="text" id="phone" placeholder="Phone Number" />
+
+          <input type="email" id="email" placeholder="Email" />
+
+        </div>
+
+        <button id="submit" onclick="validateForm()">Book</button>
+
+      </div>
+
+    </div>
+
+    <div class="BookingConfirmation">
+
+      <h2 id="bookingconfirm"></h2> 
+
+    </div>
+
+  </section>
+
+  <footer>
+    <div class="oneThird">
+      <h4>Contact</h4>
+      <ul>
+        <li>Number: +1 466 566 666</li>
+        <li>Email: info@oasis.com </li>
+        <li>Address: Manhattan - New York</li>
+      </ul>
+    </div>
+    <div class="oneThird">
+      <h4>Social Media</h4>
+      <ul>
+        <a href="#" class="fa fa-facebook"></a>
+        <a href="#" class="fa fa-twitter"></a>
+        <a href="#" class="fa fa-linkedin"></a>
+        <a href="#" class="fa fa-instagram"></a>
+      </ul>
+    </div>
+    <div class="oneThird" id="my_form">
+      <h4>Subscribe to our newsletter</h4>
+      <form>
+        <title>Subscribe to our newsletter</title>
+        <label>Email</label> 
+        <input type="email" placeholder="Email" id="email" required>
+        <button type="submit" id="nextStep">Send</button>
+      </form>
+    </div>
+    <div class="thankyou" id="thank_you" style="display: none;"> 
+      <h4>Thank you for subscribing to our newsletter!</h4>
+      <button id="closeStep">Close</button> 
+    </div>
+  </footer>
+</body>
+
+</html>

@@ -1,0 +1,312 @@
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+body {
+    font-family: Josefin Sans, serif;
+
+}
+
+
+
+div.nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    background-color: #0020ac79;
+    font-size: 18pt;
+    transition: .3s;
+    z-index: 4;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+}
+
+.nav .content {
+    flex: 1;
+}
+
+.nav .content ul {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 5px;
+    list-style: none;
+    float: right;
+}
+
+
+div.content ul li {
+    font-size: 15pt;
+    margin-bottom: 0;
+    font-weight: bold;
+    list-style: none;
+}
+
+a.logo {
+    display: block;
+    content: url('./images/logo.png');
+    width: 100px;
+    aspect-ratio: 534 / 467;
+    transition: .3s;
+    margin-left: 30px;
+    padding: 10px;
+}
+
+img.background {
+    width: 70%;
+    height: 100%;
+    position: relative;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+h1 {
+    text-align: center;
+}
+
+.fotoja {
+    z-index: -1;
+    margin: 0;
+    inset:0;
+}
+
+.sunset {
+    z-index: 0;
+    top: 100px;
+    position: absolute;
+    left: 15%;
+    color: white;
+    font-size: 42px;
+    margin-top: 250px;
+    width: 70%;
+}
+
+.el {
+    transition: .3s;
+    position: relative;
+    padding: 25px 30px;
+}
+
+.el a {
+    color: aliceblue;
+}
+
+.line-top {
+    position: relative;
+    color: aliceblue;
+}
+
+.line-top::before {
+    content: "";
+    position: absolute;
+    top: -10px;
+    left: 50%;
+    bottom: 100%;
+    width: 0;
+    height: 2px;
+    background: rgb(255, 255, 255);
+    transition: .3s;
+}
+
+.line-top:hover::before {
+    width: 100%;
+    left: 0;
+}
+.posht {
+    position: relative;
+    margin-top: 70px;
+    user-select: none;
+    left: 10%;
+    height: 300px;
+    width: 80%;
+    text-align: center;
+    font-family: Josefin Sans, serif;
+    color:#041355d5 ;
+    font-size: 30px;
+    font-weight: 400;
+    overflow-y: visible;
+
+}
+.upper {
+        position: relative;
+        width: 80%;
+        left:10%;
+        overflow-y: visible;
+       font-size: 32px;
+       line-height: 110%;
+       float: auto;
+
+
+}
+.lower {
+        position: relative;
+        margin-top: 30px;
+        font-size: 18px;
+        color:rgb(47, 45, 45);
+        width: 80%;
+        left:10%;
+        line-height: 160%;
+        float: auto;
+
+}
+
+.diffcolor  {
+    color: #1e2528;
+}
+.boxmodel {
+    width: 25%;
+    background-color: white;
+    padding: 30px;
+    box-shadow: 0px 0px 5px dimgray;
+    transition: transform 0.2s;
+    text-align: center;
+}
+.deadcol {
+        background-color: #0413557b;
+        
+}
+.boxmodel:hover {
+    transform: scale(110%);
+}
+.container5 .button {
+  width: 60%;
+}
+.boxmodel p {
+  line-height: 120%;
+  margin-bottom: 30px;
+  text-align: left;
+}
+
+
+.butonibutoni {
+    background-color: #0020ac79;
+    border-radius: 10% / 50%;
+    color:white;
+    display: inline-block;
+    font-size: 90%;
+    font-weight: 400;
+    text-transform: uppercase;
+    width: 200px;
+    padding: 20px 15px;
+  
+  }
+.blueHR {
+  width: 70%;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background-color: #041355d5;
+  height: 2px;
+  border: none;
+}
+.popularservices {
+  text-align: center;
+  padding-top: 30px;
+  color: #ffffff;
+  font-weight: 400;
+}
+.rresht {
+    display: flex;
+    flex-wrap: wrap;
+}
+.ab-cont{
+    width: 80%;
+    margin: auto;
+  }
+  .col3{
+    flex: 0 0 33%;
+    max-width: 33%;
+    text-align: center;
+}
+.ppp {
+    color: grey;
+  }
+
+.foto {
+    width: 300px;
+    margin: 0;
+    padding-right: 25px;
+    border-radius: 10%;
+}
+
+.fontet {
+        font-weight: 800;
+        text-align: center;
+        font-size: 50px;
+        color: black;
+}
+
+.boxes {
+    position: relative;
+    width:90%;
+    left: 5%;
+}
+
+
+.epara {
+    float: left;
+    width:33%;
+    height: 200px;
+    text-align: center;
+    color:gray;
+    line-height: 140%;
+
+}
+.edyta {
+    float: left;
+    width:34%;
+    height: 200px;
+    text-align: center;
+}
+.etreta {
+    float: right;
+    width:33%;
+    height: 200px;
+    text-align: center;
+    margin-right: 500px;
+}
+
+.nidy {
+    left: 250px;
+}
+.mission {
+    position: relative;
+    text-align: center;
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+    font-weight: 400;
+    font-size: 42px;
+    color:#009FE7;
+    margin-bottom: 100px;
+    margin-top: 100px;
+    width: 600px;
+    left:300px;
+    
+}
+
+h3, .fontet {
+    color: #041355d5;
+}
+.vision {
+
+    text-align: center;
+    color:black;
+    font-size: 30px;
+
+}
+
+

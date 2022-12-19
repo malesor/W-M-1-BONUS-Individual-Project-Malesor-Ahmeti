@@ -1,0 +1,153 @@
+.booking-menu {
+    max-width: 450px;
+    margin: auto;
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #f1f1f1;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+    position: relative;
+    z-index: 1;
+}
+.booking-menu h3 {
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 25px;
+    color:#041355D5;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+}
+.booking-menu p {
+      font-size:16px ;
+      color: #333;
+}
+.booking-menu form {
+    margin: 0;
+    padding: 20px 0;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+}
+.booking-menu label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 16px;
+    color: #333;
+}
+.booking-menu input[type="date"] {
+    width: 100%;
+    padding: 12px 20px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+.booking-menu select{
+    width: 100%;
+    padding: 12px 20px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    color: #333;
+}
+.booking-menu input[type="radio"]{
+      display: none;
+}  
+.booking-menu label{
+      display: inline-block;
+      padding: 10px 20px;
+      border: 2px solid black;
+      cursor: pointer;
+}
+.booking-menu input[type="radio"]:checked+label{
+      background-color: #1538d7d5;
+}
+.booking-menu button {
+    width: 100%;
+    padding: 14px 20px;
+    margin-bottom: 10px;
+    background-color: #041355D5;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: 1s;
+}
+.booking-menu button:hover {
+    transition: 1s;
+    background-color: #1538d7d5;
+}
+body{
+    position: relative;
+    margin:0;
+    font-family: "Poppins",sans-serif;
+}
+.boksi1{
+    width:450px;
+    height:450px;
+    background:white;
+    padding-left: 15px;  
+    box-sizing: border-box;
+} 
+.boksi1 p{
+      font-size:15px;
+}
+.boksi2{
+    padding-left: 15px;
+    width:450px;
+    height:450px;
+    background:white;      
+    box-sizing: border-box;
+} 
+.boksi2 p{
+    font-size: 15px;     
+}
+.boksi3{
+    width:450px;
+    height:450px;
+    background:white;
+    padding-left: 15px;
+    box-sizing: border-box;
+} 
+.boksi3 p{
+    font-size: 15px;
+}
+.fotoAvatar{
+    width:600px;
+    height: 400px;
+    position: relative;
+    left: 600px;
+    top:-370px ;     
+}
+.fotoAvatar2{
+    width:600px;
+    height: 400px;
+    position: relative;
+    left: 600px;
+    top:-370px ;
+}
+.fotoAvatar3{
+    width:600px;
+    height: 400px;
+    position: relative;
+    left: 600px;
+    top:-370px ;
+}
+.background1 {
+    position: absolute;
+    width: 100%;
+    z-index: 0;
+    top: -50px;
+    object-fit: cover;
+    height: 700px;
+}
+#chin{
+    border: none;
+}
+#chout{
+    border: none;
+}
+h3{
+    text-align: center;
+    padding-top: 10px;
+    font-size: 25px;
+}
